@@ -80,13 +80,4 @@ The project addresses two fundamental business questions for procurement leaders
 ## 🔑 Key Learnings
 - Translating **business objectives** into BI solutions by aligning metrics with executive needs.  
 - Designing and implementing a **scalable data model** (Star Schema) for procurement analysis.  
-- Building **C-suite ready dashboards** that balance usability with analytical depth.  
-
----
-
-## 🛠️ Get Started
-- This repository includes **static screenshots** (`Cost_Analysis.png`, `Procurement_Overview.png`) to showcase the dashboard design.  
-- The full Power BI project file (`.pbix`) is available upon request for recruiters or collaborators.  
-- Explore the visuals to understand the **strategic value of BI in procurement**.  
-
----
+- Building **C-suite ready dashboards** that balance usability with analytical depth. 
