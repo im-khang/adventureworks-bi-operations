@@ -1,14 +1,21 @@
 # AdventureWorks BI Operations
 
-Business intelligence dashboard for AdventureWorks sales, procurement, cost, customer, product, and operations analysis.
+Which sales, procurement, product, and cost signals should operations leaders review first in an AdventureWorks BI dashboard?
 
 ## Business question
 
-What decision can this analysis or workflow support, and what evidence should a reviewer inspect first?
+Which sales, procurement, product, and cost signals should operations leaders review first in an AdventureWorks BI dashboard?
+
+## Reviewer guide
+
+1. `dashboard/AdventrureWorks_report.pbit` — Power BI template artifact.
+2. `reports/figures/Cost_Analysis.png` — cost analysis screenshot.
+3. `reports/figures/Procurement_Overview.png` — procurement overview screenshot.
+4. `docs/evaluation.md` and `reports/results.md` — verification notes.
 
 ## Data source
 
-AdventureWorks BI template and screenshots from original repo.
+AdventureWorks sample BI/reporting artifacts. No private operational data is tracked.
 
 ## Repository structure
 
@@ -41,17 +48,23 @@ python -m pip install -r requirements.txt
 
 ## Run / verify
 
-1. `python scripts/verify.py`
+```bash
+python3 scripts/verify.py
+```
 
 ## Public outputs
 
-- Dashboard or BI artifact: `dashboard/`
+- Dashboard or public artifact: `Power BI template and exported dashboard screenshots.`
 - Findings and evidence notes: `reports/`
 - Evaluation notes: `docs/`
 - Supporting references: `references/`
+
+## Claim boundary
+
+This repo demonstrates BI organization and dashboard evidence using sample artifacts. It does not claim live refresh, production semantic model governance, or measured operational savings.
 
 ## Data and security policy
 
 - Credentials, environment files, local raw data, generated working data, databases, archives, and scratch outputs are ignored by `.gitignore`.
 - Public repo keeps only shareable code, sample-safe artifacts, documentation, dashboard files, and evidence summaries.
-- Claims should stay bounded by available data and documented assumptions.
+- Claims stay bounded by available data and documented assumptions.
